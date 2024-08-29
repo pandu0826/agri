@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  /* Container */
+  .edit-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Form */
+  .edit-profile-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .edit-profile-form h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .edit-profile-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .edit-profile-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+    font-weight: 500;
+  }
+  
+  .edit-profile-form input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333333;
+    transition: border-color 0.2s;
+  }
+  
+  .edit-profile-form input:focus {
+    border-color: #3b82f6;
+    outline: none;
+  }
+  
+  .edit-profile-form .error-message {
+    color: #ef4444;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .edit-profile-form .success-message {
+    color: #10b981;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Submit Button */
+  .edit-profile-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .edit-profile-form button:hover {
+    background-color: #2563eb;
+  }
+  

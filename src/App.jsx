@@ -14,8 +14,7 @@ import ProtectedRoute from './components/widgets/ProtectedRoute';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCurrentUser } from './store/features/userSlice';
 import NotFound from './page/NotFound';
-
-
+import EditProfile from './page/EditProfile';
 function App() {
 
   const dispatch = useDispatch();
@@ -59,6 +58,8 @@ function App() {
               <Route path="/signup" element={<Signup />} />
               <Route path="/" element={<Login />} />
               <Route path="*" element={< NotFound />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/edit-profile" element={<EditProfile />} />
             </Routes>
           </div>
         </section>
